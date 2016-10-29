@@ -1,0 +1,47 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>findme</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>findme</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="findme.csproj" File="findme.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationInsights.config">ApplicationInsights.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="asknumber.aspx">asknumber.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="asknumber.aspx.cs">asknumber.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="asknumber.aspx.designer.cs">asknumber.aspx.designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="choose.aspx">choose.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="choose.aspx.cs">choose.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="choose.aspx.designer.cs">choose.aspx.designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.cs">Default.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.designer.cs">Default.aspx.designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="gamepage.aspx">gamepage.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="gamepage.aspx.cs">gamepage.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="gamepage.aspx.designer.cs">gamepage.aspx.designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <Folder Name="PublishProfiles" TargetFolderName="PublishProfiles">
+          <ProjectItem ReplaceParameters="false" TargetFileName="hostown.pubxml">hostown.pubxml</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="scripts" TargetFolderName="scripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ai.0.15.0-build58334.js">ai.0.15.0-build58334.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ai.0.15.0-build58334.min.js">ai.0.15.0-build58334.min.js</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
