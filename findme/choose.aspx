@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="choose.aspx.cs" Inherits="$safeprojectname$.choose" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="choose.aspx.cs" Inherits="find_me_if_you_can.choose" %>
 
 <!DOCTYPE html>
 

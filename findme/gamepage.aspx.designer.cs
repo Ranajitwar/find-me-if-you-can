@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace $safeprojectname$ {
+namespace find_me_if_you_can {
     
     
     public partial class gamepage {

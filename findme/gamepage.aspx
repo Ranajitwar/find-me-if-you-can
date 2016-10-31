@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="gamepage.aspx.cs" Inherits="$safeprojectname$.gamepage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="gamepage.aspx.cs" Inherits="find_me_if_you_can.gamepage" %>
 
 <!DOCTYPE html>
 

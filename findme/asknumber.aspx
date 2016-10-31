@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="asknumber.aspx.cs" Inherits="$safeprojectname$.asknumber" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="asknumber.aspx.cs" Inherits="find_me_if_you_can.asknumber" %>
 
 <!DOCTYPE html>
 
